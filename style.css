@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Underwood Champion";
+  src: url('/assets/UnderwoodChampion.eot');
+  src: url('/assets/UnderwoodChampion.eot?#iefix') format('embedded-opentype'),
+       url('/assets/UnderwoodChampion.woff2') format('woff2'),
+       url('/assets/UnderwoodChampion.woff') format('woff'),
+       url('/assets/UnderwoodChampion.svg#UnderwoodChampion') format('svg'),
+       url("/assets/underwood_champion.tff") format("truetype");
+       font-weight: normal;
+       font-style: normal;
+}
+
+body {
+  font-family: "Underwood Champion";
+}
+
+li {
+  padding-bottom: 15px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.poem {
+  padding-bottom: 5vw;
+}
+
+.poem-title {
+  width: 400px;
+  text-align: center;
+  padding-bottom: 2vw;
+}
+
+.date {
+  padding-top: 4vw;
+}
