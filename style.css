@@ -56,3 +56,8 @@ a:visited {
 .date {
   padding-top: 4vw;
 }
+
+.about {
+  width: 50vw;
+  text-align: center;
+}
