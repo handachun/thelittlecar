@@ -10,9 +10,17 @@
        font-style: normal;
 }
 
-html, body {
+html {
   font-family: "Underwood Champion";
   overflow-x: hidden;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Underwood Champion";
   max-width: 100vw;
   display: flex;
   justify-content: center;
